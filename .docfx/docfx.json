@@ -1,0 +1,93 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "..",
+          "files": [".project/Aarthificial.Safekeeper.csproj"]
+        }
+      ],
+      "dest": "api/runtime",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "allowCompilationErrors": false
+    },
+    {
+      "src": [
+        {
+          "src": "..",
+          "files": [".project/Aarthificial.Safekeeper.Editor.csproj"]
+        }
+      ],
+      "dest": "api/editor",
+      "includePrivateMembers": false,
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "noRestore": false,
+      "namespaceLayout": "flattened",
+      "memberLayout": "samePage",
+      "allowCompilationErrors": false
+    }
+  ],
+  "build": {
+    "globalMetadata": {
+      "_lang": "en",
+      "_appFaviconPath": "images/favicon.svg",
+      "_appLogoPath": "images/logo.svg",
+      "_appLogoDarkPath": "images/logo-dark.svg",
+      "_appBannerUrl": "https://safekeeper.aarthificial.com/images/banner.png",
+      "_appName": "Safekeeper",
+      "_appTitle": "Safekeeper",
+      "_appFooter": "Made with <a href=\"https://dotnet.github.io/docfx\">docfx</a></span>",
+      "_enableSearch": true,
+      "_gitContribute": {
+        "repo": "https://github.com/aarthificial-gamedev/safekeeper",
+        "branch": "main",
+        "apiSpecFolder": ".project/apispec"
+      }
+    },
+    "content": [
+      {
+        "files": ["api/**.yml"]
+      },
+      {
+        "files": ["editor/index.md", "runtime/index.md"],
+        "src": "docs/api",
+        "dest": "api"
+      },
+      {
+        "files": ["docs/**.md", "docs/**/toc.yml", "toc.yml"],
+        "exclude": ["docs/api/**", "docs/index.md"]
+      },
+      {
+        "files": ["index.md"],
+        "src": "docs",
+        "dest": "."
+      }
+    ],
+    "resource": [
+      {
+        "files": ["images/**", "CNAME"]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": ["docs/api/*.md"],
+        "exclude": ["docs/api/runtime/index.md", "docs/api/editor/index.md"]
+      }
+    ],
+    "output": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": ["default", "modern", "template"],
+    "xref": ["https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"],
+    "xrefService": ["https://xref.docs.microsoft.com/query?uid={uid}"],
+    "postProcessors": [],
+    "keepFileLink": false,
+    "disableGitFeatures": false
+  }
+}

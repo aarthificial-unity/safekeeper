@@ -1,0 +1,8 @@
+- name: Introduction
+  href: index.md
+- name: Installation
+  href: installation.md
+- name: Basic concepts
+  href: concepts.md
+- name: Full example
+  href: example.md

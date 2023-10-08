@@ -1,0 +1,8 @@
+- name: Docs
+  href: docs/
+- name: Runtime API
+  href: api/runtime/
+  homepage: docs/api/runtime/index.md
+- name: Editor API
+  href: api/editor/
+  homepage: docs/api/editor/index.md

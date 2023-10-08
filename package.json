@@ -1,0 +1,29 @@
+{
+  "name": "com.aarthificial.safekeeper",
+  "displayName": "Safekeeper",
+  "version": "0.0.1",
+  "description": "A simple save system for Unity",
+  "unity": "2021.1",
+  "keywords": [
+    "unity",
+    "save-systems",
+    "utility"
+  ],
+  "homepage": "https://safekeeper.aarthificial.com",
+  "bugs": {
+    "url": "https://github.com/aarthificial-gamedev/safekeeper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aarthificial-gamedev/safekeeper.git"
+  },
+  "license": "MIT",
+  "licensesUrl": "https://github.com/aarthificial-gamedev/safekeeper/blob/main/LICENSE",
+  "documentationUrl": "https://safekeeper.aarthificial.com",
+  "changelogUrl": "https://github.com/aarthificial-gamedev/safekeeper/blob/main/CHANGELOG.md",
+  "author": {
+    "name": "aarthificial",
+    "email": "contact@aarthificial.com",
+    "url": "https://aarthificial.com"
+  }
+}

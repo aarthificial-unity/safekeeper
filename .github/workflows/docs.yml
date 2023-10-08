@@ -1,0 +1,24 @@
+name: Publish Documentation
+
+on: workflow_dispatch
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: License
+        run: echo '${{ secrets.UNITY_LICENSE }}' > license.ulf
+      - uses: actions/cache@v3
+        with:
+          path: .project/Library
+          key: Library
+      - name: Documentation
+        uses: ./.github/actions/unity
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: .docfx/_site
+          external_repository: aarthificial-gamedev/safekeeper-docs
