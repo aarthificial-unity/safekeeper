@@ -159,9 +159,17 @@ namespace Aarthificial.Safekeeper.Editor {
         var chunk = data.GetChunk(_currentChunk);
         if (chunk.TryGetValue(_currentLocation, out var value)) {
           if (!_formattedData.TryGetValue(value, out var formatted)) {
-            // formatted = JToken.Parse(value).ToString(Formatting.Indented);
-            // _formattedData.Add(value, formatted);
+#if UNITY_NEWTONSOFT_JSON
+            try {
+              formatted = Newtonsoft.Json.Linq.JToken.Parse(value)
+                .ToString(Newtonsoft.Json.Formatting.Indented);
+              _formattedData.Add(value, formatted);
+            } catch {
+              formatted = value;
+            }
+#else
             formatted = value;
+#endif
           }
           EditorGUILayout.TextArea(formatted, GUILayout.ExpandHeight(true));
         }

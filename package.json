@@ -21,6 +21,9 @@
   "licensesUrl": "https://github.com/aarthificial-gamedev/safekeeper/blob/main/LICENSE",
   "documentationUrl": "https://safekeeper.aarthificial.com",
   "changelogUrl": "https://github.com/aarthificial-gamedev/safekeeper/blob/main/CHANGELOG.md",
+  "peerDependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.0"
+  },
   "author": {
     "name": "aarthificial",
     "email": "contact@aarthificial.com",
