@@ -35,11 +35,6 @@ This limitation comes from the fact that you'd need a way to store the informati
 about the slots themselves. Safekeeper doesn't have an out-of-the-box solution for that.
 You could, however, try to implement this functionality yourself.
 
-Safekeeper is **not** open source **yet**. Currently, it's available only to
-my Compute tier supporters on [Patreon] and [YouTube]. Already a supporter?
-Follow the [instructions] to get access to the latest version.
-
 [Unity]: https://unity.com/
 [Patreon]: https://www.patreon.com/aarthificial
 [YouTube]: https://www.youtube.com/@aarthificial/join
-[instructions]: https://www.patreon.com/aarthificial

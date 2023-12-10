@@ -38,4 +38,3 @@ functionality yourself.
 [Unity]: https://unity.com/
 [Patreon]: https://www.patreon.com/aarthificial
 [YouTube]: https://www.youtube.com/@aarthificial/join
-[instructions]: https://www.patreon.com/posts/typewriter-early-86967465
