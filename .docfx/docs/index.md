@@ -30,7 +30,7 @@ functionality yourself.
 
 > [!NOTE]
 >
-> Typewriter has been released for educational purposes. It probably won't be
+> Safekeeper has been released for educational purposes. It probably won't be
 > developed further.
 
 > [!Video https://www.youtube.com/embed/wTsrGkMlMN0]
