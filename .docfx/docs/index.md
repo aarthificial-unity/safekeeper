@@ -30,9 +30,8 @@ functionality yourself.
 
 > [!NOTE]
 >
-> Safekeeper is **not** open source **yet**. Currently, it's available only to
-> my Compute tier supporters on [Patreon] and [YouTube]. Already a supporter?
-> Follow the [instructions] to get access to the latest version.
+> Typewriter has been released for educational purposes. It probably won't be
+> developed further.
 
 > [!Video https://www.youtube.com/embed/wTsrGkMlMN0]
 

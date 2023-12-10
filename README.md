@@ -13,6 +13,9 @@
 
 ---
 
+> NOTE: Typewriter has been released for educational purposes. It probably won't
+> be developed further.
+
 Safekeeper is a simple save system for [Unity].
 
 It's an opinionated solution designed mostly for non-procedural, adventure games.
